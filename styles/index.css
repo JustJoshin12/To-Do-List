@@ -1,0 +1,24 @@
+@import url(../vendors/normalize.css);
+
+body {
+    background-color: #B07289;
+}
+.page-content{
+  background-color: #FFFFFE;
+  box-shadow: 0px 4.67778px 4.67778px #FFFFFF;
+  border-radius: 23.4px;
+}
+
+.edit-button {
+    background: transparent url(../images/edit-btn.svg) center no-repeat;
+    width: 21px;
+    height: 21px;
+    border: none;
+}
+
+.delete-button {
+    background: transparent url(../images/delete-btn.svg) center no-repeat;
+    width: 21px;
+    height: 21px;
+    border: none;
+}
