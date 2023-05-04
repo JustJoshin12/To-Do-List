@@ -113,3 +113,28 @@ ul li::before {
 .todo-app__list-item-delete-button:hover {
   background: #edeef0;
 }
+
+@media screen and (max-width: 440px) {
+  .todo-app__button {
+    padding: 14px 20px;
+    font-size: 12px;
+  }
+
+  .todo-app__row {
+    padding-left: 0;
+  }
+  
+  .todo-app_input {
+    padding-left: 0;
+  }
+  .todo-app__list-item-delete-button{
+    padding-left: 12px;
+  }
+
+  .todo-app__list {
+    padding: 12px 7px 12px 20px;
+  }
+
+
+
+}
